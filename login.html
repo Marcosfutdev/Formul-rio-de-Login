@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form>
+      <div class="bem">
+        <h1>Você já estuda conosco?</h1>
+        <p>Se sim, faça seu login, se não, crie sua conta</p>
+      </div>
+       <div id="inputs">
+        <div class="conjunto">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Digite seu nome">
+          <p id="falta_name" class="falta"></p>
+        </div>
+       <div class="conjunto">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Digite seu email">
+        <p id="falta_email" class="falta"></p>
+       </div>
+        <div class="conjunto">
+          <label for="senha">Senha</label>
+        <input type="text" id="senha" placeholder="Digite sua senha">
+        <p id="falta_senha" class="falta"></p> 
+        </div>
+       </div>
+       <input type="button" id="button" onclick="entrar()" value="Entrar">
+       <div class="outras_login">
+        <input type="btn" value="Entrar com Google" id="google" class="forma_login">
+        <input type="btn" value="Entrar com facebook" id="facebook" class="forma_login">
+       </div>
+       <a href="#">Criar conta</a>
+    </form>
+</body>
+<script src="scripts/login.js"></script>
+</script>
+</html>

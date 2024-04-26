@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background: linear-gradient(180deg, rgb(4, 4, 46), rgb(6, 6, 57), rgb(8, 8, 73));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 200px;
+    background:linear-gradient(90deg, rgb(13, 13, 107), rgb(14, 14, 71), rgb(33, 33, 141));
+    width: 660px;
+    height: 650px;
+}
+input[type="text"]{
+    margin-top: 5px;
+    height: 53px;
+    width: 500px;
+    border: 1.2px solid black;
+    font-size: 20px;
+
+}
+.bem
+{
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    height: 20px;
+}
+
+input[type="text"]:hover
+{
+ border: 1.6px solid red;
+}
+#inputs
+{
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+#button{
+    height: 55px;
+    width: 240px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+label
+{
+    margin-top: 5px;
+    font-size: 20px;
+    color:#fff;
+}
+.conjunto
+{
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"]::placeholder
+{
+    font-size: 18px;
+    color:black;
+}
+.falta
+{
+    color:red;
+}
+a
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+a:hover
+{
+    color: rgb(254, 254, 254);
+}
+.outras_login
+{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.forma_login
+{  
+    width: 245px;
+    margin-right: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+
+}
+#google
+{
+    background-color: red;
+    height: 55px;
+}
+#facebook
+{
+    background-color: blue;
+    height: 57px;
+}
